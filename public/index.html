@@ -20,7 +20,7 @@
 <meta name="page-type" content="software">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400..700&family=Funnel+Sans:wght@400..600&family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400..700&family=Funnel+Sans:wght@400..600&family=Cormorant+Garamond:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/system.css">
 <link rel="stylesheet" href="assets/ui/cards.css">
 <link rel="stylesheet" href="assets/motion/motion.css">
@@ -33,7 +33,7 @@
   --p-accent: #4f6238; --p-accent-ink: #ffffff; --p-action: #4f6238; --p-action-ink: #ffffff;
   --p-inv-bg: #2a2a26; --p-inv-surface: #353430; --p-inv-ink: #ddd6c6; --p-inv-muted: #a39e92;
   --p-inv-accent: #ddd6c6; --p-inv-accent-ink: #2a2a26; --p-inv-action: #ddd6c6; --p-inv-action-ink: #2a2a26;
-  --font-display: "Funnel Display", system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
   --font-text: "Funnel Sans", system-ui, sans-serif;
   --font-mono: "DM Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   --display-weight: 400;
@@ -63,7 +63,7 @@
   .vg-tool { padding-block: clamp(20px, 4vh, 48px); }
   .vg-tool__grid { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "stage head" "stage panel"; grid-template-rows: auto 1fr; column-gap: clamp(32px, 5vw, 72px); row-gap: 28px; align-items: start; }
   .vg-head { grid-area: head; display: grid; gap: 12px; }
-  .vg-head h1 { margin: 0; font: 600 clamp(34px, 4.2vw, 56px)/1.04 var(--font-display); letter-spacing: -0.02em; }
+  .vg-head h1 { margin: 0; font: 600 clamp(40px, 5vw, 66px)/1.02 var(--font-display); letter-spacing: 0; }
   .vg-lead { margin: 0; max-width: 34ch; color: var(--p-muted); font: 400 17px/1.5 var(--font-text); }
   .vg-stage { grid-area: stage; }
   .vg-panel > * { min-width: 0; }
@@ -89,7 +89,7 @@
   .vg-act:disabled { opacity: .4; cursor: default; }
   .vg-faq { padding-block: clamp(48px, 8vh, 96px); border-top: 1px solid var(--line); }
   .vg-faq__grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: 32px; }
-  .vg-faq h2 { margin: 0; font: 600 clamp(26px, 3vw, 36px)/1.1 var(--font-display); }
+  .vg-faq h2 { margin: 0; font: 600 clamp(30px, 3.4vw, 42px)/1.1 var(--font-display); letter-spacing: 0; }
   .vg-foot { border-top: 1px solid var(--line); padding-block: 28px; font: 400 13px/1.6 var(--font-text); color: var(--p-muted); }
   .vg-foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
   .vg-foot a { color: inherit; }
