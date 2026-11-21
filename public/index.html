@@ -92,6 +92,8 @@
   .vg-foot { border-top: 1px solid var(--line); padding-block: 28px; font: 400 13px/1.6 var(--font-text); color: var(--p-muted); }
   .vg-foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
   .vg-foot a { color: inherit; }
+  .vg-give { flex-basis: 100%; color: var(--p-ink); }
+  .vg-give a { text-underline-offset: 3px; }
   @media (max-width: 899px) {
     .vg-tool__grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "stage" "panel"; row-gap: 20px; }
     .vc-card { width: 100%; max-width: 520px; height: auto; min-height: 0; margin-inline: auto; }
@@ -171,6 +173,7 @@
 <footer class="vg-foot">
   <div class="wrap">
     <span>&copy; 2026 Verse of Grace. Scripture from the King James Version. Topic lists drawn from OpenBible.info (CC BY). Paintings made with our own model trained on public-domain Renaissance works.</span>
+    <span class="vg-give">This project is free. If it blessed you, you can <a href="https://www.paypal.com/paypalme/NamJaeHyeong" rel="noopener" target="_blank">help keep it running on PayPal</a>.</span>
     <span><a href="https://www.youtube.com/@VerseofGrace-j2d" rel="noopener">YouTube</a> · <a href="privacy.html">Privacy</a></span>
   </div>
 </footer>
